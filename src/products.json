@@ -1,0 +1,463 @@
+{
+    "products": [
+      {
+        "id": 1,
+        "name": "Pro Laptop X1",
+        "category": "Laptops",
+        "discountedPrice": 1299.99,
+        "originalPrice": 1599.99,
+        "quantity": 0,
+        "brand": "HS Texnologiya",
+        "description": "High-performance laptop for professionals with cutting-edge technology.",
+        "features": [
+          "Intel Core i7 Processor",
+          "16GB RAM",
+          "512GB SSD",
+          "NVIDIA Graphics"
+        ],
+        "image": "/public/laptop-x1.jpg"
+      },
+      {
+        "id": 2,
+        "name": "Wireless Noise Cancelling Headphones",
+        "category": "Accessories",
+        "discountedPrice": 199.99,
+        "originalPrice": 249.99,
+        "quantity": 100,
+        "brand": "HS Texnologiya",
+        "description": "Immersive sound experience with advanced noise cancellation.",
+        "features": [
+          "40-hour Battery Life",
+          "Bluetooth 5.0",
+          "Foldable Design",
+          "Carrying Case Included"
+        ],
+        "image": "/public/headphones.png"
+      },
+      {
+        "id": 3,
+        "name": "Office Productivity Suite",
+        "category": "Software",
+        "discountedPrice": 79.99,
+        "originalPrice": 99.99,
+        "quantity": 200,
+        "brand": "HS Texnologiya",
+        "description": "Comprehensive software for professional document creation and management.",
+        "features": [
+          "Word Processing",
+          "Spreadsheet Tools",
+          "Presentation Builder",
+          "Cloud Sync"
+        ],
+        "image": "/public/software-suite.jpg"
+      },
+      {
+        "id": 4,
+        "name": "Smartphone",
+        "category": "Mobile Phones",
+        "discountedPrice": 699.99,
+        "originalPrice": 799.99,
+        "quantity": 200,
+        "brand": "MobilePro",
+        "description": "Latest smartphone with cutting-edge features.",
+        "features": [
+          "6.5-inch Display",
+          "128GB Storage",
+          "Triple Camera System",
+          "5G Connectivity"
+        ],
+        "image": "/public/image4.jpg"
+      },
+      {
+        "id": 5,
+        "name": "Wireless Earbuds",
+        "category": "Accessories",
+        "discountedPrice": 99.99,
+        "originalPrice": 129.99,
+        "quantity": 150,
+        "brand": "SoundWave",
+        "description": "Compact and comfortable wireless earbuds with great sound quality.",
+        "features": [
+          "24-hour Battery Life",
+          "Bluetooth 5.1",
+          "Noise Isolation",
+          "Water Resistant"
+        ],
+        "image": "/public/image5.jpg"
+      },
+      {
+        "id": 6,
+        "name": "4K Monitor",
+        "category": "Monitors",
+        "discountedPrice": 399.99,
+        "originalPrice": 499.99,
+        "quantity": 75,
+        "brand": "VisionTech",
+        "description": "Ultra HD 4K monitor with stunning picture quality.",
+        "features": [
+          "27-inch Display",
+          "HDR Support",
+          "Adjustable Stand",
+          "Multiple Ports"
+        ],
+        "image": "/public/image6.jpg"
+      },
+      {
+        "id": 7,
+        "name": "Bluetooth Speaker",
+        "category": "Accessories",
+        "discountedPrice": 59.99,
+        "originalPrice": 79.99,
+        "quantity": 300,
+        "brand": "AudioMax",
+        "description": "Portable Bluetooth speaker with powerful sound.",
+        "features": [
+          "12-hour Battery Life",
+          "Waterproof",
+          "Built-in Microphone",
+          "Compact Design"
+        ],
+        "image": "/public/image7.jpg"
+      },
+      {
+        "id": 8,
+        "name": "Smartwatch",
+        "category": "Wearables",
+        "discountedPrice": 199.99,
+        "originalPrice": 249.99,
+        "quantity": 120,
+        "brand": "WristTech",
+        "description": "Advanced smartwatch with fitness tracking and notifications.",
+        "features": [
+          "Heart Rate Monitor",
+          "GPS",
+          "Sleep Tracking",
+          "Water Resistant"
+        ],
+        "image": "/public/image8.jpg"
+      },
+      {
+        "id": 9,
+        "name": "Wireless Keyboard",
+        "category": "Accessories",
+        "discountedPrice": 49.99,
+        "originalPrice": 69.99,
+        "quantity": 180,
+        "brand": "KeyMaster",
+        "description": "Ergonomic wireless keyboard with long battery life.",
+        "features": [
+          "Rechargeable Battery",
+          "Bluetooth Connectivity",
+          "Quiet Keys",
+          "Slim Design"
+        ],
+        "image": "/public/image9.jpg"
+      },
+      {
+        "id": 10,
+        "name": "Laser Printer",
+        "category": "Printers",
+        "discountedPrice": 249.99,
+        "originalPrice": 299.99,
+        "quantity": 60,
+        "brand": "Sony",
+        "description": "High-speed laser printer with wireless connectivity.",
+        "features": [
+          "Duplex Printing",
+          "Wi-Fi Direct",
+          "High-Resolution Output",
+          "Energy Efficient"
+        ],
+        "image": "/public/image10.jpg"
+      },
+      {
+        "id": 11,
+        "name": "Tablet",
+        "category": "Tablets",
+        "discountedPrice": 399.99,
+        "originalPrice": 449.99,
+        "quantity": 90,
+        "brand": "TabTech",
+        "description": "Versatile tablet with high-resolution display and powerful performance.",
+        "features": [
+          "10-inch Display",
+          "64GB Storage",
+          "Stylus Support",
+          "Long Battery Life"
+        ],
+        "image": "/public/image11.jpg"
+      },
+      {
+        "id": 12,
+        "name": "Gaming Mouse",
+        "category": "Accessories",
+        "discountedPrice": 49.99,
+        "originalPrice": 69.99,
+        "quantity": 250,
+        "brand": "GameGear",
+        "description": "Precision gaming mouse with customizable buttons.",
+        "features": [
+          "Adjustable DPI",
+          "RGB Lighting",
+          "Ergonomic Design",
+          "Wired and Wireless Modes"
+        ],
+        "image": "/public/image12.jpg"
+    },
+    {
+      "id": 13,
+      "name": "A Really Long Titile That I Use To See The Name Display Property Because It Is Kinda Bugged",
+      "category": "Accessories",
+      "discountedPrice": 89.99,
+      "originalPrice": 119.99,
+      "quantity": 150,
+      "brand": "KeyMaster",
+      "description": "High-performance mechanical keyboard with customizable RGB lighting.",
+      "features": [
+          "Cherry MX Switches",
+          "RGB Lighting",
+          "Programmable Keys",
+          "Detachable Wrist Rest"
+      ],
+      "image": "/public/image13.jpg"
+  },
+  {
+      "id": 14,
+      "name": "Gaming Headset",
+      "category": "Accessories",
+      "discountedPrice": 79.99,
+      "originalPrice": 99.99,
+      "quantity": 200,
+      "brand": "SoundBlaster",
+      "description": "Immersive gaming headset with surround sound and noise-cancelling microphone.",
+      "features": [
+          "7.1 Surround Sound",
+          "Noise-Cancelling Microphone",
+          "Comfortable Ear Cushions",
+          "LED Lighting"
+      ],
+      "image": "/public/image14.jpg"
+  },
+  {
+      "id": 15,
+      "name": "4K Gaming Monitor",
+      "category": "Monitors",
+      "discountedPrice": 399.99,
+      "originalPrice": 499.99,
+      "quantity": 75,
+      "brand": "VisionTech",
+      "description": "Ultra HD 4K gaming monitor with high refresh rate and low response time.",
+      "features": [
+          "27-inch Display",
+          "144Hz Refresh Rate",
+          "1ms Response Time",
+          "HDR Support"
+      ],
+      "image": "/public/image15.jpg"
+  },
+  {
+      "id": 16,
+      "name": "Wireless Gaming Controller",
+      "category": "Accessories",
+      "discountedPrice": 59.99,
+      "originalPrice": 79.99,
+      "quantity": 180,
+      "brand": "GamePad Pro",
+      "description": "Ergonomic wireless gaming controller with customizable buttons.",
+      "features": [
+          "Bluetooth Connectivity",
+          "Customizable Buttons",
+          "Vibration Feedback",
+          "Rechargeable Battery"
+      ],
+      "image": "/public/image16.jpg"
+  },
+  {
+      "id": 17,
+      "name": "VR Headset",
+      "category": "Accessories",
+      "discountedPrice": 299.99,
+      "originalPrice": 399.99,
+      "quantity": 50,
+      "brand": "VirtualWorld",
+      "description": "Immersive VR headset with high-resolution display and motion tracking.",
+      "features": [
+          "High-Resolution Display",
+          "Motion Tracking",
+          "Comfortable Fit",
+          "Built-in Audio"
+      ],
+      "image": "/public/image17.jpg"
+  },
+  {
+      "id": 18,
+      "name": "Gaming Laptop",
+      "category": "Laptops",
+      "discountedPrice": 1299.99,
+      "originalPrice": 1599.99,
+      "quantity": 40,
+      "brand": "PowerPlay",
+      "description": "High-performance gaming laptop with powerful graphics and fast processor.",
+      "features": [
+          "Intel Core i7 Processor",
+          "16GB RAM",
+          "1TB SSD",
+          "NVIDIA RTX Graphics"
+      ],
+      "image": "/public/image18.jpg"
+  },
+  {
+      "id": 19,
+      "name": "Gaming Chair",
+      "category": "Accessories",
+      "discountedPrice": 199.99,
+      "originalPrice": 249.99,
+      "quantity": 100,
+      "brand": "ComfortSeat",
+      "description": "Ergonomic gaming chair with adjustable features and lumbar support.",
+      "features": [
+          "Adjustable Height",
+          "Lumbar Support",
+          "Reclining Backrest",
+          "PU Leather"
+      ],
+      "image": "/public/image19.jpg"
+  },
+  {
+      "id": 20,
+      "name": "External SSD",
+      "category": "Accessories",
+      "discountedPrice": 99.99,
+      "originalPrice": 129.99,
+      "quantity": 120,
+      "brand": "SpeedDrive",
+      "description": "High-speed external SSD with large storage capacity.",
+      "features": [
+          "1TB Storage",
+          "USB 3.1",
+          "Compact Design",
+          "Shock Resistant"
+      ],
+      "image": "/public/image20.jpg"
+  },
+  {
+      "id": 21,
+      "name": "Gaming Desk",
+      "category": "Accessories",
+      "discountedPrice": 149.99,
+      "originalPrice": 199.99,
+      "quantity": 60,
+      "brand": "DeskMaster",
+      "description": "Sturdy gaming desk with ample space and cable management.",
+      "features": [
+          "Large Surface Area",
+          "Cable Management",
+          "Adjustable Height",
+          "Cup Holder"
+      ],
+      "image": "/public/image21.jpg"
+  },
+  {
+      "id": 22,
+      "name": "Gaming Router",
+      "category": "Accessories",
+      "discountedPrice": 129.99,
+      "originalPrice": 169.99,
+      "quantity": 90,
+      "brand": "NetSpeed",
+      "description": "High-performance gaming router with low latency and fast speeds.",
+      "features": [
+          "Dual-Band Wi-Fi",
+          "Low Latency",
+          "Multiple Antennas",
+          "Parental Controls"
+      ],
+      "image": "/public/image22.jpg"
+  },
+  {
+      "id": 23,
+      "name": "Gaming Desk Mat",
+      "category": "Accessories",
+      "discountedPrice": 29.99,
+      "originalPrice": 39.99,
+      "quantity": 200,
+      "brand": "MatMaster",
+      "description": "Large gaming desk mat with smooth surface and non-slip base.",
+      "features": [
+          "Extended Size",
+          "Smooth Surface",
+          "Non-Slip Base",
+          "Water-Resistant"
+      ],
+      "image": "/public/image23.jpg"
+  },
+  {
+      "id": 24,
+      "name": "Gaming Glasses",
+      "category": "Accessories",
+      "discountedPrice": 49.99,
+      "originalPrice": 69.99,
+      "quantity": 150,
+      "brand": "EyeGuard",
+      "description": "Protective gaming glasses with blue light filtering.",
+      "features": [
+          "Blue Light Filtering",
+          "Anti-Glare Coating",
+          "Comfortable Fit",
+          "Stylish Design"
+      ],
+      "image": "/public/image24.jpg"
+  },
+  {
+      "id": 25,
+      "name": "Gaming Microphone",
+      "category": "Accessories",
+      "discountedPrice": 79.99,
+      "originalPrice": 99.99,
+      "quantity": 110,
+      "brand": "SoundWave",
+      "description": "High-quality gaming microphone with clear audio and noise reduction.",
+      "features": [
+          "Clear Audio",
+          "Noise Reduction",
+          "Adjustable Stand",
+          "USB Connection"
+      ],
+      "image": "/public/image25.jpg"
+  },
+  {
+      "id": 26,
+      "name": "Gaming Capture Card",
+      "category": "Accessories",
+      "discountedPrice": 149.99,
+      "originalPrice": 199.99,
+      "quantity": 80,
+      "brand": "StreamMaster",
+      "description": "Professional gaming capture card for streaming and recording.",
+      "features": [
+          "1080p 60fps",
+          "Low Latency",
+          "HDMI Input/Output",
+          "USB 3.0"
+      ],
+      "image": "/public/image26.jpg"
+  },
+  {
+      "id": 27,
+      "name": "Gaming Mouse Pad",
+      "category": "Accessories",
+      "discountedPrice": 19.99,
+      "originalPrice": 29.99,
+      "quantity": 300,
+      "brand": "PadPro",
+      "description": "Smooth gaming mouse pad with non-slip base.",
+      "features": [
+          "Smooth Surface",
+          "Non-Slip Base",
+          "Durable Material",
+          "Water-Resistant"
+      ],
+      "image": "/public/image27.jpg"
+  }
+    ]
+  }

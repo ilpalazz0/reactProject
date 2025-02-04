@@ -1,0 +1,143 @@
+:root {
+  --primary-blue: #1a237e;
+  --accent-blue: #3f51b5;
+  --bright-blue: #2979ff;
+  --pure-white: #ffffff;
+  --light-gray: #f5f5f5;
+  --text-gray: #616161;
+  --header-height: 80px;
+}
+
+.about-container {
+  max-width: 1400px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+  min-height: calc(100vh - var(--header-height) - 4rem);
+}
+
+.about-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.about-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--primary-blue);
+  text-align: center;
+  margin-bottom: 3rem;
+  position: relative;
+  padding-bottom: 1rem;
+}
+
+.about-title::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80px;
+  height: 3px;
+  background: var(--accent-blue);
+}
+
+.about-sections {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.about-card {
+  background: var(--pure-white);
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(26, 35, 126, 0.08);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  overflow: hidden;
+}
+
+.about-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(26, 35, 126, 0.12);
+}
+
+.card-content {
+  padding: 2rem;
+}
+
+.card-content h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--primary-blue);
+  margin-bottom: 1.5rem;
+  position: relative;
+  padding-left: 1.5rem;
+}
+
+.card-content h2::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 6px;
+  height: 24px;
+  background: var(--accent-blue);
+  border-radius: 3px;
+}
+
+.card-content p {
+  color: var(--text-gray);
+  line-height: 1.7;
+  font-size: 1rem;
+}
+
+.mission-vision-grid {
+  display: grid;
+  gap: 2rem;
+}
+
+.values-grid {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.value-item {
+  background: var(--light-gray);
+  padding: 1.5rem;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.value-item:hover {
+  background: rgba(63, 81, 181, 0.05);
+  transform: translateX(8px);
+}
+
+.value-item h3 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--accent-blue);
+  margin-bottom: 0.75rem;
+}
+
+/* Responsive Design */
+@media (min-width: 768px) {
+  .mission-vision-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .values-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .about-title {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .card-content {
+    padding: 1.5rem;
+  }
+}

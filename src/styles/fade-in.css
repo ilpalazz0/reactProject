@@ -1,0 +1,14 @@
+/* fade-in.css */
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .fade-in {
+    animation: fadeIn var(--fade-in-duration, 1s) ease-in;
+  }
+  
